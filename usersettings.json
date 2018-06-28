@@ -1,0 +1,23 @@
+{
+    "git.autofetch": true,
+    "window.zoomLevel": 0,
+    "workbench.sideBar.location": "left",
+    "editor.formatOnPaste": true,
+    "workbench.editor.enablePreview": false,
+    "editor.acceptSuggestionOnCommitCharacter": false,
+    "explorer.confirmDragAndDrop": false,
+    "eslint.provideLintTask": true,
+    "workbench.colorTheme": "Default High Contrast",
+    "emmet.includeLanguages": {
+        "erb": "html",
+        "ruby": "html",
+        "javascript": "javascriptreact",
+    },
+    "explorer.autoReveal": false,
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.statusBar.feedback.visible": false,
+    "editor.minimap.enabled": true,
+    "editor.minimap.showSlider": "always",
+    "editor.quickSuggestionsDelay": 0,
+    "editor.parameterHints": false,
+}

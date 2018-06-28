@@ -1,0 +1,98 @@
+// Place your key bindings in this file to overwrite the defaults
+[
+    {
+        "key": "alt+cmd+right",
+        "command": "workbench.action.nextEditor"
+    },
+    {
+        "key": "ctrl+tab",
+        "command": "workbench.action.nextEditorInGroup"
+    },
+    {
+        "key": "ctrl+shift+tab",
+        "command": "workbench.action.previousEditorInGroup"
+    },
+    {
+        "key": "cmd+2",
+        "command": "workbench.action.focusSideBar"
+    },
+    {
+        "key": "cmd+0",
+        "command": "-workbench.action.focusSideBar"
+    },
+    {
+        "key": "cmd+1",
+        "command": "workbench.action.toggleSidebarVisibility"
+    },
+    {
+        "key": "cmd+b",
+        "command": "-workbench.action.toggleSidebarVisibility"
+    },
+    {
+        "key": "cmd+2",
+        "command": "workbench.view.explorer"
+    },
+    {
+        "key": "cmd+4",
+        "command": "workbench.files.action.showActiveFileInExplorer"
+    },
+    {
+        "key": "shift+cmd+e",
+        "command": "-workbench.view.explorer"
+    },
+    {
+        "key": "cmd+n",
+        "command": "explorer.newFile",
+        "when": "explorerViewletFocus"
+    },
+    {
+        "key": "cmd+shift+n",
+        "command": "explorer.newFolder",
+        "when": "explorerViewletFocus"
+    },
+    {
+        "key": "cmd+0",
+        "command": "workbench.action.removeRootFolder"
+    },
+    {
+        "key": "shift+cmd+a",
+        "command": "workbench.action.moveEditorToFirstGroup"
+    },
+    {
+        "key": "ctrl+cmd+1",
+        "command": "-workbench.action.moveEditorToFirstGroup"
+    },
+    {
+        "key": "shift+cmd+s",
+        "command": "workbench.action.moveEditorToSecondGroup"
+    },
+    {
+        "key": "ctrl+cmd+2",
+        "command": "-workbench.action.moveEditorToSecondGroup"
+    },
+    {
+        "key": "shift+cmd+d",
+        "command": "workbench.action.moveEditorToThirdGroup"
+    },
+    {
+        "key": "ctrl+cmd+3",
+        "command": "-workbench.action.moveEditorToThirdGroup"
+    },
+    {
+        "key": "shift+cmd+r",
+        "command": "workbench.action.terminal.focusNext"
+    },
+    {
+        "key": "shift+cmd+e",
+        "command": "workbench.action.terminal.focusPrevious"
+    },
+    {
+        "key": "shift+cmd+w",
+        "command": "workbench.action.terminal.kill"
+    },
+    {
+        "key": "ctrl+cmd+r",
+        "command": "workbench.action.reloadWindow",
+        "when": "editorTextFocus"
+    }
+]

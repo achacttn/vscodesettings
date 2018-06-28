@@ -1,0 +1,35 @@
+{
+    "Log to console": {
+        "prefix": "l",
+        "body": [
+            "console.log($1)",
+        ],
+        "description": "Log output to console"
+    },
+    "Console.time": {
+        "prefix": "t",
+        "body": [
+            "console.time($1)",
+        ],
+        "description": "Begin timer"
+    },
+    "Console.timeEnd": {
+        "prefix": "te",
+        "body": [
+            "console.timeEnd($1)",
+        ],
+        "description": "End timer"
+    },
+    "Request and response callback": {
+        "prefix": "rr",
+        "body": [
+            "(req,res)=>{\n    $1\n}"
+        ]
+    },
+    "Fat arrow function": {
+        "prefix": "f",
+        "body": [
+			"($1)=>{\n	\n}"
+        ]
+    }
+}
